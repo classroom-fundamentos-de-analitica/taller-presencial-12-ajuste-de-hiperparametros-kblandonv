@@ -19,7 +19,7 @@ jobs:
       with:
         timeout: 10
         max-score: 1
-        setup-command: pip3 install -r requirements
+        setup-command: pip3 install -r requirements.txt
     - name: Autograding Reporter
       uses: classroom-resources/autograding-grading-reporter@v1
       env:
