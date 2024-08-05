@@ -62,4 +62,5 @@ def test_model():
     assert r2 > 0.3450
 
 
-test_model()
+if __name__ == "__main__":
+    test_model()
